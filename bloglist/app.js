@@ -4,7 +4,7 @@ const cors = require('cors')
 const mongoose = require('mongoose')
 const Blog = require('./models/blog')
 const blogsRouter = require('./controllers/blog')
-const config = require('dotenv').config()
+const config = require('./utils/config')
 
 const mongoUrl = config.MONGODB_URI
 
