@@ -5,7 +5,7 @@ require('express-async-errors')
 const config = require('./utils/config')
 const mongoose = require('mongoose')
 const Blog = require('./models/blog')
-const blogsRouter = require('./controllers/blog')
+const blogsRouter = require('./controllers/blogs')
 const usersRouter = require('./controllers/users')
 
 const mongoUrl = config.MONGODB_URI
